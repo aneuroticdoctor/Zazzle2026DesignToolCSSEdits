@@ -1,0 +1,271 @@
+/* ----- Zazzle 2026 Design Tool CSS Edits by JessicaAmber. Last updated 28 Feb 2026, 11:21am ----- */
+/* ----- ALL MENUS ----- */
+
+/* All menus no padding from edge of screen */
+div.HPDesignTool_layout {
+  padding: 0;
+}
+
+/* Make link text light blue */
+ .HPSearchInfiniteScroller_root button {
+   color:rgb(74, 180, 253);}
+   
+/* no gap between sidebar and layers panel */
+.HPSidebar_tabpanel {
+  right:16px;
+}
+
+/* make background of menus dark blue. Remove rounded corners. */
+div.HPSidebar_tabpanel.GuidedFlowHPNIR_hp_sidebarPanel {
+  background-color:#394754 ;
+  border-radius: 0;
+}
+
+/* Make text in menu panels white, to be visible against dark blue background */
+div.HPSidebar_tabpanel.GuidedFlowHPNIR_hp_sidebarPanel .HPSidePanelTemplates_content {
+color:white;
+}
+
+/* ----- SIDEBAR ----- */
+
+/* Buttons less padding */
+.HPSidebar_tabs_advanced, .HPSidebar_tabs_simple {
+  padding:0;
+  }
+
+/* Reduce padding */
+.HPSidebar_scroller {
+  padding:0;
+}
+
+/* sidebar background color rgb(42, 52, 62); including icons, making them white. removing roudned corners from sidebar. More narrow. */
+
+div.HPSidebar_sidebar {
+  background-color: rgb(42, 52, 62);
+  border-radius: 0;
+  width: unset;
+}
+
+button.ZDSIconButtonWithLabel_root.ZDSIconButtonWithLabel_root__default {
+  background-color: rgb(42, 52, 62);
+}
+
+div.HPSidebar_sidebar svg.ZDSZazzicon_root {
+  color: white;
+}
+
+div.HPSidebar_sidebar span.ZDSIconButtonWithLabel_buttonLabel {
+  color:white;
+}
+
+/*highlighted sidebar items different color. no rounded corners */
+button.ZDSIconButtonWithLabel_root.ZDSIconButtonWithLabel_root__default.ZDSIconButtonWithLabel_root__active {
+     background-color:#394754;
+     border-radius: 0;
+}
+/* sidebar, removes gradient overlay after clicking icon */
+.ZDSIconButtonWithLabel_root:after {
+  background: unset;
+}
+
+/* ----- EDIT aka PERSONALISE YOUR DESIGN MENU ----- */
+
+/* Make text white*/
+.HPSidePanelTemplateFields_title {
+color:white;
+}
+
+/* text input boxes black text */
+.HPSidePanelTemplateFields_fields textarea {
+  color:black;
+}
+
+/* ----- ADD TEXT MENU ----- */
+
+/* Make text in Add Text window white */
+ .HPSidePanelText_content span {
+color:white;
+ }
+/* Add a Text Box button light grey rounded */
+button.ZDSButton_root__filled {
+  background-color:#F3F5F6;
+  border-radius: 4px;
+}
+/* Add a Text Box button  black text*/
+.ZDSButton_root__icon_left .ZDSButton_buttonContent{
+  color:black;
+}
+/* ----- ADD YOUR TEXT POPUP ----- */
+
+/* Tint screen dark behind the Add Your Text popup*/
+.HPDesignTool_editTextPalette {
+  box-shadow:0 0 0 2000px rgba(0,0,0,0.5);
+}
+/* Add Your Text popup square corners, makes above shadow look better*/
+.HPAddEditTextPalette_root {
+  border-radius: 0;
+}
+
+/* ----- ADD IMAGE MENU ----- */
+
+/* Make text white */
+ .HPSearchInfiniteScroller_root {
+color:white;
+ }
+
+/* ICONS MENU */
+/* Make icons categories have no bg */
+.HPSidePanelIcons_categoryButton {
+  background-color: unset;
+}
+
+/* Make icons categories icons white */
+.HPSidePanelIcons_categoryButton img {
+  color:white;
+    filter:invert(100%);
+}
+
+/* Make icons categories text white */
+.HPSidePanelIcons_categoryButton {
+  color:white;
+}
+
+/* Make icons in search white */
+.HPSidePanelIcons_resultButton .HPSidePanelIcons_image {
+  filter:invert(100%);
+}
+
+/* ----- LAYERS MENU ----- */
+
+/* icons in Layers panel black */
+div.HPSidebar_tabpanel.GuidedFlowHPNIR_hp_sidebarPanel div svg use{
+  color: black ;
+}
+
+/* make title of Layers panel white */
+span.HPSidePanelHeader_title {
+  color: white;
+}
+
+/* make handle to drag and drop layers wider */
+div.HPSidePanelObjectLayer_grippyTarget {
+  transform: scale(150%);
+}
+
+
+
+/* TOP TOOLBAR */
+
+/* TOP TOOLBAR - FONTS MENU */
+
+/* font picker not rounded*/
+.HPContextBarTexts_fontPicker {
+  border-radius: 0;
+}
+
+/* make font selector display all categories close together, in a smaller font, no scrolling required */
+ul.ZDSScrolly_list {
+    flex-wrap: wrap;
+    margin-top:0;
+    align-content: center;
+}
+.HPFontCategories_chip {
+  border: none;
+  border-radius: 0;
+  background-color:#F9F9F9;
+  padding-top:0;
+  padding-bottom:0;
+  margin:2px;
+  font-size:12px;
+  height:20px;
+}
+
+/* ----- TOP TOOLBAR - EFFECTS MENU ----- */ 
+
+/*- No rounding. Less padding so no scroll needed. */
+div.HPEffectsPanel_root {
+  border-radius: 0;
+}
+
+div.HPEffectsPanel_root span.HPSidePanelHeader_title {
+  color:black;
+}
+
+div.HPSidePanelHeader_root.HPEffectsPanel_header {
+  padding-top:10px
+}
+
+/* ----- TOP TOOLBAR - SELLING OPTIONS MENU ----- */ 
+
+/* removing descriptions under Selling Options >  ‘make objects permanent’ ‘make this a template object’ etc */
+div.ZDSToggleItem_body {
+  display:none;
+}
+
+/* making padding on Selling Options >  ‘make objects permanent’ ‘make this a template object’ etc smaller. also change bg to  #e4e4e4 and remove borders */
+div.ZDSToggleItem_root.ZDSToggleItem_root__outlined {
+  padding:7px;
+  border:none;
+  background-color: #e4e4e4;
+}
+
+/* Making toggles under Selling Options >  ‘make objects permanent’ ‘make this a template object’ smaller */
+.ZDSToggleSwitch_input {
+  transform: scale(70%);
+}
+
+/* remove instructions under Product Page Label and URL parameter name */
+div.ZDSInput_helper {
+  display: none;
+}
+
+/* make background color of Selling Options #e4e4e4 */
+div.HPPublishOptionsPanelBase_content {
+  background-color: #e4e4e4;
+}
+
+/* title black */
+.HPPublishOptionsPanelBase_root .HPSidePanelHeader_title {
+  color:black;
+}
+/* --- TOP TOOLBAR - TEXT EFFECTS MENU ----- */
+
+/* Reduce padding */
+button.ZDSAccordion_button {
+  padding:0;
+}
+/* Settings sliders shorter */
+div.ZDSSlider_root {
+  height:20px;
+}
+/* Number inputs shorter */
+input.ZDSSlider_valueInput {
+   height:30px;
+   
+}
+/* Tiling controls images smaller*/
+.HPRadioThumbnail_thumbnailContainer {
+  transform: scale(50%);
+}
+/** Size of container for image and text together smaller**/
+.HPRadioThumbnail_content {
+  height:85px;
+}
+
+/** Container for all tiling options - text spacing smaller**/
+.HPRadioThumbnail_label {
+line-height: 0;
+}
+
+/** Gap between tiling options smaller**/
+.HPTilingAccordion_tileOptionsContainer {
+  gap:0;
+}
+/** Gap above tiling options smaller**/
+.ZDSAccordion_content {
+  margin-top:0;
+}
+/* Recolor of Text Orientation Buttons */
+.HPEffectsPanel_content button.ZDSIconButtonWithLabel_root.ZDSIconButtonWithLabel_root__default {
+  background-color:white;
+}
