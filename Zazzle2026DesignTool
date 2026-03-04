@@ -1,4 +1,5 @@
-/* ----- Zazzle 2026 Design Tool CSS Edits by JessicaAmber. Last updated 28 Feb 2026, 11:21am ----- */
+/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 5 March 2026, 10:54am ----- */
+/* ----- Version 1.01 ----- */
 /* ----- ALL MENUS ----- */
 
 /* All menus no padding from edge of screen */
@@ -36,6 +37,10 @@ color:white;
 /* Reduce padding */
 .HPSidebar_scroller {
   padding:0;
+}
+/* buttons no rounded corners when unclicked */
+.ZDSIconButtonWithLabel_root__default {
+  border-radius: 0;
 }
 
 /* sidebar background color rgb(42, 52, 62); including icons, making them white. removing roudned corners from sidebar. More narrow. */
@@ -154,9 +159,53 @@ div.HPSidePanelObjectLayer_grippyTarget {
 
 
 
-/* TOP TOOLBAR */
+/* ----- TOP TOOLBAR ----- */
 
-/* TOP TOOLBAR - FONTS MENU */
+/* -- TOP TOOLBAR - FILL COLOR MENU  -- */
+
+/* Make color swatches smaller*/
+.HPColorSwatchButtonGrid_root {
+grid-template-columns: repeat(12,2fr);
+gap:5px;
+}
+
+/* Make color swatches squares*/
+.HPColorSwatch_root, .HPColorSwatchButton_root {
+  border-radius: 0;
+}
+
+/* make expand button smaller */
+.HPColorPicker_expandLink {
+  transform: scale(70%);
+  align-items: left;
+}
+
+/* custom color picker smaller */
+.ZDSIconButton_root__large {
+  padding:6px;
+}
+
+.ZDSIconButton_root__outline, .ZDSInput_inputContainer {
+  height: 35px;
+}
+.HPColorPicker_hexInput_swatch {
+    height: 33px;
+}
+
+/* Additional Colors - smaller categories*/
+.ZDSSegmentedPicker_button {
+  line-height: 0;
+}
+
+/* Print Friendly swatches - no gap*/
+.HPPrintFriendlySwatchesSelector_group {
+  grid-gap: 1px;
+}
+.HPPrintFriendlySwatchesSelector_swatchBox {
+  border-radius: 0;
+}
+
+/*  -- TOP TOOLBAR - FONTS MENU  -- */
 
 /* font picker not rounded*/
 .HPContextBarTexts_fontPicker {
