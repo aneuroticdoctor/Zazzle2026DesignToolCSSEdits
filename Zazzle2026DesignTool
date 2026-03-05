@@ -1,4 +1,4 @@
-/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 5 March 2026, 10:54am ----- */
+/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 5 March 2026, 11:10am ----- */
 /* ----- Version 1.01 ----- */
 /* ----- ALL MENUS ----- */
 
@@ -162,6 +162,11 @@ div.HPSidePanelObjectLayer_grippyTarget {
 /* ----- TOP TOOLBAR ----- */
 
 /* -- TOP TOOLBAR - FILL COLOR MENU  -- */
+
+/* window moved to left of screen */
+.ZDSMiniDropdownCustomPalette_root {
+  left:-50px;
+}
 
 /* Make color swatches smaller*/
 .HPColorSwatchButtonGrid_root {
