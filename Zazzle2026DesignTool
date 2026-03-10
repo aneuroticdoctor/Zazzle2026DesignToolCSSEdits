@@ -1,4 +1,4 @@
-/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 10 March 2026, 3:11am ----- */
+/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 10 March 2026, 3:36pm ----- */
 /* ----- Version 1.02 ----- */
 /* ----- ALL MENUS ----- */
 
@@ -164,8 +164,8 @@ div.HPSidePanelObjectLayer_grippyTarget {
 /* -- TOP TOOLBAR - FILL COLOR MENU  -- */
 
 /* window moved to left of screen */
-.ZDSMiniDropdownCustomPalette_root has:(div.HPColorPicker_root) {
-  left:-50px;
+.ZDSMiniDropdownCustomPalette_root:has(.HPColorPicker_root) {
+  left:-90px;
 }
 
 /* Make color swatches smaller*/
@@ -323,3 +323,4 @@ line-height: 0;
 .HPEffectsPanel_content button.ZDSIconButtonWithLabel_root.ZDSIconButtonWithLabel_root__default {
   background-color:white;
 }
+
