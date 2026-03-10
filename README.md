@@ -6,5 +6,7 @@ Current features include:
 * * Especially the font category selector
 
  
-Last update: 5 March 2026, 10.54am
+Last update: 10 March 2026, 3.11pm
+
+Version 1.02:Fixed issue where the window scale menu overflowed off-screen.
 Version 1.01: Color selection window moved to the left, and tools have been shrunk to decrease amount of screen covered up by that window.
