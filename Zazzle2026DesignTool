@@ -1,5 +1,5 @@
-/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 5 March 2026, 11:10am ----- */
-/* ----- Version 1.01 ----- */
+/* ----- Zazzle 2026 CSS Edits by JessicaAmber. Last updated 10 March 2026, 3:11am ----- */
+/* ----- Version 1.02 ----- */
 /* ----- ALL MENUS ----- */
 
 /* All menus no padding from edge of screen */
@@ -164,7 +164,7 @@ div.HPSidePanelObjectLayer_grippyTarget {
 /* -- TOP TOOLBAR - FILL COLOR MENU  -- */
 
 /* window moved to left of screen */
-.ZDSMiniDropdownCustomPalette_root {
+.ZDSMiniDropdownCustomPalette_root has:(div.HPColorPicker_root) {
   left:-50px;
 }
 
